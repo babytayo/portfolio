@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+}
+
+#secondchild {
+    padding-top: 8em;
+    padding-left: 4em;
+}
+
+h4 {
+    color: tomato;
+}
+
+.lets-talk {
+    background-color: #000000;
+    border: 1px solid tomato;
+    padding: 0.3em;
+    color: tomato;
+    font-weight: bolder;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-top: 0.5em;
+}
