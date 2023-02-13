@@ -8,13 +8,15 @@
      color: white;
      font-family: sans-serif;
      padding: 1em 2em;
+     margin: 0 auto;
+
  }
 
  #top-section {
      display: flex;
      justify-content: space-between;
      border: 2px solid tomato solid tomato;
-     padding: 0px;
+     /* padding: 1em; */
  }
 
  @media only screen and (min-width: 375px) and (max-width: 768px) {
@@ -49,10 +51,12 @@
  a {
      color: white;
      text-decoration: none;
-     margin-right: 2em;
-     padding: 0px;
+     margin-right: 4em;
+     padding: 0.1em;
      font-weight: bolder;
      font-size: 17px;
+     border: 1px solid #000000;
+
  }
 
  @media screen and (min-width: 375px) and (max-width: 768px) {
@@ -63,7 +67,7 @@
 
  a:hover {
      border: 1px solid tomato;
-     padding: 0.1em;
+
  }
 
  .contact-section {
@@ -111,6 +115,7 @@
      width: 50%;
      /*border: 1px solid tomato;*/
      padding-top: 8em;
+     text-align: left;
  }
 
  .child2 {

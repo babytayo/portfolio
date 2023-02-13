@@ -1,12 +1,8 @@
-body {
-    color: white;
-    background-color: #000000;
-    text-align: center;
-    font-family: sans-serif;
-    align-items: center;
-    margin: 0em auto;
-    padding: 0em;
+#project {
+    border-top: 4px solid tomato;
+    padding-top: 6em;
 
+    text-align: center;
 }
 
 .box {
@@ -17,6 +13,7 @@ body {
     border-top: 4px solid tomato;
     padding-rigth: 4px;
     padding-left: 4px;
+
 
 }
 
@@ -68,15 +65,16 @@ p {
 
 }
 
-span {
+.footer-span {
     color: tomato;
     font-size: 24px;
+    text-align: center;
 }
 
-a {
+/* a {
     margin-right: 0.5em;
     margin-bottom: 1em;
     text-decoration: none;
-}
+} */
 
 </style>
