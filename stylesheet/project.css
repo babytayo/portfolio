@@ -1,20 +1,10 @@
+/* Project Section */
 #project {
-    border-top: 4px solid tomato;
     padding-top: 6em;
-
-    text-align: center;
 }
 
-.box {
-    background-color: #2f2f1e;
-    width: 30%;
-    height: 30em;
-    margin: 1em;
-    border-top: 4px solid tomato;
-    padding-rigth: 4px;
-    padding-left: 4px;
-
-
+h2.h-project {
+    text-align: center;
 }
 
 .parentbox {
@@ -22,14 +12,14 @@
     /*border: 1px solid tomato;*/
     margin: 0px auto;
     padding: 0px 3em;
-
 }
 
-h4 {
+h4.project {
+    text-align: center;
     color: tomato;
 }
 
-.readmore {
+button.readmore {
     background-color: #2f2f1e;
     border: 1px solid tomato;
     padding: 0.5em;
@@ -40,7 +30,7 @@ h4 {
     margin-top: 8em;
 }
 
-.hireme {
+button.hireme {
     background-color: #2f2f1e;
     border: 1px solid tomato;
     padding: 0.7em;
@@ -50,19 +40,19 @@ h4 {
     font-size: 20px;
 }
 
+/* Footer Section */
 footer {
     background-color: #2f2f1e;
     width: 100%;
     height: 10em;
     font-size: 22px;
-    margin-top: 11em;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 2em;
+    margin-top: 3em;
 }
 
-p {
+p.text {
     font-size: 24px;
-
 }
 
 .footer-span {
@@ -71,10 +61,25 @@ p {
     text-align: center;
 }
 
+div.lower-footer {
+    text-align: center;
+}
+
+/* Icons Section  */
+img.icons {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    img.icons {
+        width: 15px;
+        height: 15px;
+    }
+}
+
 /* a {
     margin-right: 0.5em;
     margin-bottom: 1em;
     text-decoration: none;
 } */
-
-</style>

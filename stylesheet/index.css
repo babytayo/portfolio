@@ -1,77 +1,70 @@
+ * {
+     box-sizing: border-box;
+ }
+
  html {
      scroll-behavior: smooth;
  }
 
  body {
-     width: 0 auto;
+     max-width: 100%;
      background-color: #000000;
      color: white;
      font-family: sans-serif;
-     padding: 1em 2em;
+     padding: 2em;
      margin: 0 auto;
-
  }
 
  #top-section {
      display: flex;
+     width: 100%;
+     /* border: 1px solid tomato; */
      justify-content: space-between;
-     border: 2px solid tomato solid tomato;
-     /* padding: 1em; */
  }
 
- @media only screen and (min-width: 375px) and (max-width: 768px) {
-     #top-section {
-         flex-direction: column;
-     }
+ nav {
+     display: flex;
+     justify-content: space-between;
+     width: 70%;
  }
 
  h1 {
      margin-right: 4em;
      padding-right: 5em;
      margin: 0px;
-
  }
 
  span {
      color: tomato;
  }
 
- .menu {
-     padding-bottom: 0px;
-     padding-top: 1em;
+ ul>li {
+     list-style-type: none;
+     display: inline;
+     margin: 23px;
+     font-size: 30px;
+     text-transform: uppercase;
  }
 
- @media screen and (min-width: 375px) and (max-width: 768px) {
-     .menu {
-         font-size: 10px;
-     }
- }
-
-
- a {
+ a.nav-link {
      color: white;
      text-decoration: none;
-     margin-right: 2em;
-     padding: 0.1em;
-     font-weight: bolder;
-     font-size: 17px;
-     border: 1px solid #000000;
-
+     font-weight: bold;
+     font-size: 12px;
  }
 
- @media screen and (min-width: 375px) and (max-width: 768px) {
-     a {
-         font-size: 15px;
-     }
+ a.nav-link:hover {
+     background-color: transparent;
  }
 
- a:hover {
+ ul>li a:hover {
      border: 1px solid tomato;
-
+     padding: 2em 0;
  }
 
- .contact-section {
+ button.contact-button {
      margin-left: 10em;
+
 
  }
 
@@ -82,18 +75,15 @@
      }
  }
 
-
-
- #contact-button {
+ button#contact-button {
      background-color: #000000;
      border: 3px solid tomato;
-     padding: 0.3em;
+     padding: 0.1em;
      color: tomato;
-     font-weight: bolder;
-
+     font-weight: bold;
      border-radius: 4px;
      font-size: 17px;
-
+     float
  }
 
  @media screen and (min-width: 375px) and (max-width: 768px) {
@@ -102,19 +92,18 @@
      }
  }
 
-
-
  /*lower section*/
  #lower-section {
+     width: 100%;
+     padding-bottom: 9em;
      display: flex;
-     margin-top: em;
-
+     justify-content: space-between;
  }
 
  .child1 {
-     width: 50%;
+     max-width: 100%;
      /*border: 1px solid tomato;*/
-     padding-top: 8em;
+     padding-top: 4em;
      text-align: left;
  }
 
@@ -122,7 +111,15 @@
      padding: 0px;
  }
 
- .download {
+ /* image sizing */
+ .child2 {
+     width: 100%;
+     border-radius: 50%;
+     border: 4px solid tomato;
+ }
+
+
+ button.download {
      background-color: #000000;
      border: 3px solid tomato;
      padding: 0.3em;

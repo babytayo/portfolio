@@ -1,32 +1,61 @@
  #service {
-     border-top: 4px solid tomato;
      padding-top: 6em;
+     /* text-align: center; */
+ }
 
+ h2.h-service {
      text-align: center;
+ }
+
+ div.parentbox {
+     display: flex;
+     /* border: 1px solid tomato; */
+     justify-content: space-between;
+ }
+
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+     div.parentbox {
+         flex-direction: column;
+         justify-content: none;
+     }
  }
 
  .box {
      background-color: #2f2f1e;
-     width: 30%;
-     height: 30em;
-     margin: 1em;
-     border-top: 4px solid tomato;
-     padding-rigth: 4px;
-     padding-left: 4px;
-     /* text-align: center; */
+     width: 32%;
+     padding: 0 5px;
+     border-top: 6px solid tomato;
+     text-align: center;
  }
 
- .parentbox {
-     display: flex;
-     /*border: 1px solid tomato;*/
-     /* justify-content: space-around; */
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+     .box {
+         width: 100%;
+         padding: 0 10px;
+         margin-bottom: 20px;
+
+     }
  }
 
- h4 {
+ p.btext {
+     padding: 0 20px;
+     text-align: justify;
+ }
+
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+     p.btext {
+         padding: 0;
+     }
+ }
+
+ h4.service {
+     text-align: center;
      color: tomato;
  }
 
- .explore {
+
+ button.explore {
+     margin-top: 2em;
      background-color: #2f2f1e;
      border: 1px solid tomato;
      padding: 0.5em;
@@ -34,5 +63,4 @@
      font-weight: bolder;
      border-radius: 4px;
      font-size: 17px;
-     margin-top: 8em;
  }
