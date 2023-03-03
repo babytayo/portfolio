@@ -15,6 +15,12 @@
      margin: 0 auto;
  }
 
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+     body {
+         padding: 0.5em;
+     }
+ }
+
  #top-section {
      display: flex;
      width: 100%;
@@ -26,6 +32,12 @@
      display: flex;
      justify-content: space-between;
      width: 70%;
+ }
+
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+     nav {
+         flex-direction: column;
+     }
  }
 
  h1 {
@@ -46,11 +58,24 @@
      text-transform: uppercase;
  }
 
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+     ul>li {
+         font-size: 10px;
+     }
+ }
+
  a.nav-link {
      color: white;
      text-decoration: none;
      font-weight: bold;
      font-size: 12px;
+ }
+
+ @media only screen and (min-width: 375px) and (max-width: 768px) {
+     a.nav-link {
+         font-size: 30px;
+         display: block;
+     }
  }
 
  a.nav-link:hover {
@@ -83,7 +108,6 @@
      font-weight: bold;
      border-radius: 4px;
      font-size: 17px;
-     float
  }
 
  @media screen and (min-width: 375px) and (max-width: 768px) {

@@ -22,8 +22,9 @@
 
  .box {
      background-color: #2f2f1e;
+     font-size: 22px;
      width: 32%;
-     padding: 0 5px;
+     padding: 20px;
      border-top: 6px solid tomato;
      text-align: center;
  }
@@ -38,7 +39,7 @@
  }
 
  p.btext {
-     padding: 0 20px;
+     padding: 1em 20px;
      text-align: justify;
  }
 
