@@ -53,27 +53,21 @@
  ul>li {
      list-style-type: none;
      display: inline;
-     margin: 23px;
-     font-size: 30px;
+     margin: 0 auto;
      text-transform: uppercase;
- }
-
- @media only screen and (min-width: 375px) and (max-width: 768px) {
-     ul>li {
-         font-size: 10px;
-     }
  }
 
  a.nav-link {
      color: white;
      text-decoration: none;
      font-weight: bold;
-     font-size: 12px;
+     font-size: 15px;
+     padding: 3px 10px;
  }
 
  @media only screen and (min-width: 375px) and (max-width: 768px) {
      a.nav-link {
-         font-size: 30px;
+         font-size: 10px;
          display: block;
      }
  }
@@ -87,18 +81,8 @@
      padding: 2em 0;
  }
 
- button.contact-button {
-     margin-left: 10em;
 
-
- }
-
- @media screen and (min-width: 375px) and (max-width: 768px) {
-     .contact-section {
-         margin-left: 0em;
-         margin-top: 2em;
-     }
- }
+ /* contact section */
 
  button#contact-button {
      background-color: #000000;
