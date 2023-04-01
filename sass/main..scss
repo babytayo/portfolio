@@ -1,0 +1,29 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "var.scss";
+@import "header.scss";
+@import "home.scss";
+@import "about.scss";
+@import "service.scss";
+@import "project.scss";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background: $gen_bg_color;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

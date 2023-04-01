@@ -1,0 +1,126 @@
+@import "var.scss";
+.service_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 35rem;
+  .service_box_wrapper {
+    display: flex;
+    .service_box {
+      background: $box_bg;
+      height: 20rem;
+      margin: 1rem;
+      padding: 1rem;
+      border-top-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+
+      h4 {
+        color: rgba(157, 64, 48);
+      }
+      button {
+        padding: 0.3rem 1.5rem;
+        background-color: rgba(157, 64, 48);
+        border: none;
+        color: #e8ece0;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 17px;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
+//Mobile Responsive
+
+@media (max-width: 576px) {
+  .service_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 35rem;
+    .service_box_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .service_box {
+        background: $box_bg;
+        width: 100%;
+        height: 25rem;
+        margin: 1.5rem;
+        padding: 1rem;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+
+        h4 {
+          color: rgba(157, 64, 48);
+        }
+
+        p {
+          padding: 1rem 0;
+        }
+        button {
+          padding: 0.3rem 1.5rem;
+          background-color: rgba(157, 64, 48);
+          border: none;
+          color: #e8ece0;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 4px;
+          font-size: 17px;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+// tablet Responsiveness
+@media (max-width: 786px) and (min-width: 575px) {
+  .service_wrapper {
+    display: flex;
+    text-align: center;
+    height: 35rem;
+    .service_box_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 9rem;
+      .service_box {
+        background: $box_bg;
+        width: 100%;
+        height: 25rem;
+        margin: 1.5rem;
+        padding: 1rem;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+
+        h4 {
+          color: rgba(157, 64, 48);
+        }
+
+        p {
+          padding: 1rem 0;
+        }
+        button {
+          padding: 0.3rem 1.5rem;
+          background-color: rgba(157, 64, 48);
+          border: none;
+          color: #e8ece0;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 4px;
+          font-size: 17px;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
