@@ -8,9 +8,10 @@
     display: flex;
     .project_box {
       background: $box_bg;
-      height: 20rem;
+      width: 30rem;
+      // height: 20rem;
       margin: 1rem;
-      padding: 1rem;
+      padding: 2rem 1rem;
       border-top-right-radius: 50px;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 10px;
@@ -28,7 +29,7 @@
         cursor: pointer;
         border-radius: 4px;
         font-size: 17px;
-        margin-top: 2rem;
+        margin-top: 3rem;
       }
     }
   }
@@ -51,7 +52,7 @@
         background: $box_bg;
         width: 100%;
         height: 25rem;
-        margin: 1.5rem;
+        margin: 1rem;
         padding: 1rem;
         border-top-right-radius: 50px;
         border-bottom-left-radius: 50px;
@@ -61,9 +62,6 @@
           color: rgba(157, 64, 48);
         }
 
-        p {
-          padding: 1rem 0;
-        }
         button {
           padding: 0.3rem 1.5rem;
           background-color: rgba(157, 64, 48);
@@ -128,4 +126,19 @@
       }
     }
   }
+}
+
+span#read1 {
+  display: none;
+  color: black;
+}
+
+span#read2 {
+  display: none;
+  color: black;
+}
+
+span#read3 {
+  display: none;
+  color: black;
 }
