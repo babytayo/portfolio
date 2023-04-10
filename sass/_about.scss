@@ -38,13 +38,13 @@
   }
 }
 
-//Mobile REsponsiveness
+//Mobile Responsiveness
 @media (max-width: 576px) {
   .about_wrapper {
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 1rem;
     padding: 0 1rem;
 
     .first_about_child {

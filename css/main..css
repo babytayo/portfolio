@@ -50,6 +50,7 @@ header nav ul {
 header nav ul li {
   padding: 0.5rem 2rem;
   color: #fcfce0;
+  border-radius: 8px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -191,8 +192,7 @@ span {
   cursor: pointer;
   border-radius: 4px;
   font-size: 20px;
-  position: relative;
-  top: 2rem;
+  margin-top: 2rem;
 }
 .home_wrapper .home_second_child {
   -ms-flex-preferred-size: 50%;
@@ -259,8 +259,7 @@ span {
     cursor: pointer;
     border-radius: 4px;
     font-size: 14px;
-    position: relative;
-    top: 2rem;
+    margin-top: 2rem;
   }
   .home_wrapper .home_second_child {
     -ms-flex-preferred-size: 50%;
@@ -345,7 +344,7 @@ span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 1rem;
     padding: 0 1rem;
   }
   .about_wrapper .first_about_child {
@@ -470,6 +469,7 @@ span {
     height: fit-content;
     color: #1e1f38;
     margin-top: 2rem;
+    padding: 1rem 0;
   }
   .service_wrapper h2 {
     color: #fec32b;
@@ -630,6 +630,7 @@ span {
     background-color: #fec32b;
     border-radius: 80px;
     margin-top: 3rem;
+    padding: 1rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -892,6 +893,7 @@ button:hover {
 
 li:hover {
   opacity: 0.7;
+  background-color: rgba(213, 225, 239, 0.2);
 }
 
 * {
