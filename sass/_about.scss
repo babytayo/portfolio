@@ -1,11 +1,20 @@
 @import "var.scss";
 .about_wrapper {
-  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  background-color: #fec32b;
+  border-bottom: 10px solid #f16725;
+  border-top: 10px solid #f16725;
+
   display: flex;
   padding: 0 4rem;
+  margin-bottom: 1rem;
 
   .first_about_child {
     flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img {
       width: 90%;
     }
@@ -41,11 +50,17 @@
 //Mobile Responsiveness
 @media (max-width: 576px) {
   .about_wrapper {
-    max-width: 100%;
+    width: 100%;
+    height: 50rem;
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
     padding: 0 1rem;
+    background-color: #fec32b;
+    border-bottom: 10px solid #f16725;
+    border-top: 10px solid #f16725;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
     .first_about_child {
       flex-basis: 50%;
@@ -76,6 +91,55 @@
         cursor: pointer;
         border-radius: 4px;
         font-size: 17px;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
+//Tablet Responsive
+@media (max-width: 786px) and (min-width: 575px) {
+  .about_wrapper {
+    max-width: 100%;
+    display: flex;
+    padding: 0 4rem;
+    background-color: #fec32b;
+    border-bottom: 10px solid #f16725;
+    border-top: 10px solid #f16725;
+    margin-bottom: 1rem;
+
+    .first_about_child {
+      flex-basis: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 90%;
+      }
+    }
+    .second_about_child {
+      flex-basis: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #1e1f38;
+
+      h3 {
+        color: #f16725;
+        padding: 1rem 0;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.2rem;
+      }
+      button {
+        padding: 0.3rem 1rem;
+        background-color: #fcfce0;
+        border: 1px solid #f16725;
+        color: #f16725;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
         margin-top: 2rem;
       }
     }

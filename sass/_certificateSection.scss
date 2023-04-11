@@ -1,0 +1,21 @@
+@import "var.scss";
+.certificateSection {
+  width: 100%;
+  height: 65vh;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgb(241, 103, 37, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-style: italic;
+    text-align: center;
+    color: #fcfce0;
+  }
+  img {
+    max-width: 26rem;
+    height: 85%;
+  }
+}
