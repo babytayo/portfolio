@@ -4,12 +4,15 @@ footer {
   margin: 3rem 0;
   height: 10rem;
   background: $footer_bg;
+  border-bottom: 1px solid goldenrod;
+  border-top: 1px solid goldenrod;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #1e1f38;
   p {
-    color: #fcfce0;
+    color: goldenrod;
     padding: 0.5rem;
     font-size: 16px;
   }
@@ -32,6 +35,8 @@ footer {
     margin-top: 3rem;
     height: 10rem;
     background: $footer_bg;
+    border-bottom: 1px solid goldenrod;
+    border-top: 1px solid goldenrod;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,6 +44,7 @@ footer {
       color: #fcfce0;
       padding: 0.5rem;
       font-size: 16px;
+      color: goldenrod;
     }
     button {
       padding: 0.3rem 1.5rem;
@@ -62,6 +68,8 @@ footer {
     margin-top: 3rem;
     height: 10rem;
     background: $footer_bg;
+    border-bottom: 1px solid goldenrod;
+    border-top: 1px solid goldenrod;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,6 +77,7 @@ footer {
       color: #fcfce0;
       padding: 0.5rem;
       font-size: 16px;
+      color: goldenrod;
     }
     button {
       padding: 0.3rem 1.5rem;
